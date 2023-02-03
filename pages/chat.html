@@ -36,35 +36,26 @@
               ><i class="fa-solid fa-arrow-left fa-2x"></i
             ></a>
           </div>
-          <img
-            src="https://pbs.twimg.com/profile_images/1564398871996174336/M-hffw5a_400x400.jpg"
-            alt=""
-          />
+          <img id="friend-profile-image" src="" alt="" />
           <div>
-            <h2>Bill Gates</h2>
-            <span class="text-success">Online</span>
+            <h2 id="friend-profile-name"></h2>
+            <span id="friend-profile-status"></span>
           </div>
         </div>
         <div>
-          <button class="btn btn-dark">
+          <button id="logout-btn" class="btn btn-dark">
             <i class="fa-solid fa-arrow-right-from-bracket fa-2x"></i>
           </button>
         </div>
       </header>
       <main class="flex-fill d-flex flex-column justify-content-end p-3">
-        <div class="messages overflow-y-auto h-100 d-flex flex-column gap-3">
-          <div class="text-bg-light message message-to-me align-self-start">
-            <span class="text">Salom</span>
-            <span class="date">12:30</span>
-          </div>
-          <div class="text-bg-primary message message-from-me align-self-end">
-            <span class="text">Salom</span>
-            <span class="date">12:30</span>
-          </div>
-        </div>
+        <div
+          id="messages-wrapper"
+          class="messages overflow-y-auto h-100 d-flex flex-column gap-3"
+        ></div>
       </main>
       <footer class="border-top">
-        <form class="d-flex align-items-center">
+        <form id="new-message-form" class="d-flex align-items-center">
           <textarea
             class="w-75 text-bg-dark border-0 pt-4 ps-4 fs-3"
             name="message"

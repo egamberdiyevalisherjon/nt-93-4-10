@@ -26,10 +26,3 @@ users.forEach((u) => {
   }
 });
 
-/*
- <li>
-          <a class="" href="./chat.html#1"
-            >Elon Musk</a
-          >
-        </li>
-*/
